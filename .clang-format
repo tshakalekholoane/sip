@@ -1,0 +1,59 @@
+# See https://tshaka.dev/a/18jjw37.
+
+AlignAfterOpenBracket: BlockIndent
+AlignArrayOfStructures: Left
+AlignConsecutiveAssignments:
+  Enabled: true
+  AlignCompound: true
+  AlignFunctionDeclarations: true
+  PadOperators: true
+AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: Consecutive
+AlignEscapedNewlines: LeftWithLastLine
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortLambdasOnASingleLine: Empty
+AttributeMacros:
+  - hint_nonnull
+BracedInitializerIndentWidth: 2
+BreakAfterReturnType: Automatic
+BreakArrays: false
+BreakBeforeBraces: Allman
+BreakBeforeTernaryOperators: false
+BreakStringLiterals: false
+ColumnLimit: 0
+ContinuationIndentWidth: 2
+Cpp11BracedListStyle: false
+EnumTrailingComma: Remove
+FixNamespaceComments: false
+IncludeIsMainRegex: NOMATCH^
+IndentExternBlock: Indent
+IndentGotoLabels: false
+IndentPPDirectives: BeforeHash
+InsertNewlineAtEOF: true
+KeepEmptyLines:
+  AtStartOfBlock: false
+  AtStartOfFile: false
+NamespaceIndentation: All
+PointerAlignment: Left
+RemoveEmptyLinesInUnwrappedLines: true
+SeparateDefinitionBlocks: Always
+SortIncludes: Natural
+SpaceAfterCStyleCast: true
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeParens: Custom
+SpaceBeforeParensOptions:
+  AfterNot: true
+StatementAttributeLikeMacros:
+  - defer
+TypenameMacros:
+  - comptime
+  - dyn_array_t
+  - let
+  - slice_mut_t
+  - slice_t
+  - var
+WhitespaceSensitiveMacros:
+  - and
+  - or
+  - not
