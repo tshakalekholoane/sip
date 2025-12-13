@@ -1,0 +1,15 @@
+name: ci
+
+on: [pull_request, push]
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: build
+        run: make
+
+      - name: run
+        run: target/sip_test
